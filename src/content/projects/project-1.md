@@ -1,5 +1,5 @@
 ---
-title: 'EcoBuddy: Sustainable Living App'
+title: 'Take me there: A virtual local business Bazaar'
 description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
 publishDate: 'Jan 02 2024'
 seo:
@@ -8,12 +8,15 @@ seo:
     alt: Project preview
 ---
 
-![Project preview](/project-1.jpg)
+![Project preview](/side-view-hands-holding-map.jpg)
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Note:** This case study withoholds certain methodologies to be in compliance with non-disclosure agreement  terms issued by the project's directors.
 
 **Project Overview:**
 EcoBuddy is a revolutionary mobile application designed to make sustainable living accessible, engaging, and rewarding. With a focus on gamification and real-world impact, EcoBuddy encourages users to adopt eco-friendly habits, reduce their carbon footprint, and contribute to a healthier planet.
+
+![Image Description](/mock.png "Optional Title")
+
 
 ## Objectives
 
@@ -27,6 +30,7 @@ EcoBuddy is a revolutionary mobile application designed to make sustainable livi
 
 - Users are assigned an EcoScore based on their sustainable activities and choices.
 - Daily and weekly challenges encourage users to adopt new habits and compete with friends or the community to earn EcoPoints.
+
 
 2. **Personalized Eco-Goals:**
 

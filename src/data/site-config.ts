@@ -38,9 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: "Peter .S. King'ori",
+    subtitle: 'Web Development  |  Product Design  |  Visual Design ',
+    description: 'A place I can share my insights on design and development related topics',
     image: {
         src: '/dante-preview.jpg',
         alt: 'Dante - Astro.js and Tailwind CSS theme'
@@ -96,10 +96,10 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: "Product designer and Front-End Developer ",
+        text: " Dedicated to the realms of innovation and functional design. My approach involves conducting just enough research to enhance decisions that leverage design patterns as a catalyst for exceptional products. I have a profound appreciation for bleeding-edge technologies, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/PS-Kingori'>GitHub</a> or follow me on <a href='https://twitter.com/ps_kingori'>Twitter/X</a>.",
         image: {
-            src: '/hero.jpeg',
+            src: '/undraw_programming_re_kg9v.svg',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [
