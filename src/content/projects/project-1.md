@@ -1,6 +1,6 @@
 ---
 title: 'Take me there: A virtual local business Bazaar'
-description: EcoBuddy is a mobile app that gamifies sustainable living. Users can set eco-friendly goals, track their carbon footprint, and earn virtual rewards for adopting environmentally conscious habits.
+description: A usness and activity inder platom that .
 publishDate: 'Jan 02 2024'
 seo:
   image:
