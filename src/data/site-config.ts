@@ -71,15 +71,15 @@ const siteConfig: SiteConfig = {
         {
             text: 'Contact',
             href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
         }
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // },
+        // {
+        //     text: 'Download theme',
+        //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        // }
     ],
     socialLinks: [
         {
@@ -96,10 +96,10 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: "Product designer and Front-End Developer ",
-        text: " Dedicated to the realms of innovation and functional design. My approach involves conducting just enough research to enhance decisions that leverage design patterns as a catalyst for exceptional products. I have a profound appreciation for bleeding-edge technologies, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/PS-Kingori'>GitHub</a> or follow me on <a href='https://twitter.com/ps_kingori'>Twitter/X</a>.",
+        title: "Product design and Dev Blog ",
+        text: "Hi there, Welcome to my Digital design journey documentation. I develop and design digital products using industry standard design and development practices",
         image: {
-            src: '/undraw_programming_re_kg9v.svg',
+            src: '/loopfile.gif',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [

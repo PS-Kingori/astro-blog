@@ -9,8 +9,7 @@ seo:
     alt: Project preview
 ---
 
-![Project preview](/ui-header.jpg)
-
+![Project preview](/toggle.gif)
 
 ## Objectives
 
