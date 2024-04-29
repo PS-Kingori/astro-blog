@@ -14,11 +14,11 @@ seo:
 **Project Overview:**
 In the digital age, "Take Me There" emerged as a beacon for small businesses seeking to connect with clients in a modern, online version of the Yellow Pages.
 
-![Image Description](/mockupdate.png 'Optional Title')
-
 ## The Challenge
 
 The challenge was to design a website that was both visually appealing and user-friendly, ensuring that small businesses could easily list their services and clients could easily find them. The goal was to create a platform that was not only functional but also reflected the essence of local community and support.
+
+![Image Description](/mockupdate.png 'Optional Title')
 
 ## The Process
 
