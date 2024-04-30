@@ -12,13 +12,17 @@ seo:
     alt: Wavy lines
 ---
 
-![crossroads](https://images.unsplash.com/photo-1502298411556-0b02524812cb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![texts](/Textmessages.gif)
 
-**Choosing the right approach** for your anything in life is a critical decision that can significantly impact your development process and the success of endevours. This relates to development and design solutions btw :-)
+## Understanding what you are required to do
 
-## Understand what you are required to do
+**Choosing the right approach** for anything in life is a critical decision that can significantly impact your development process and the success of your endevours. This relates to development and design solutions btw :-)
 
-1. Where will doing things quickly/easily get me
-2. Where will doing simple things get me
+> How quickly or stable do I want things in my life to be?
+> Sometimes there is a need for things to get done as quickly as possible to get the ball rolling and test outcomes. Other times it takes a little more time to know how things work under the hood so as to come up with the most bare-bone implimentation that just works
 
-It just boils down to how quickly or stable I want things in my life to be
+I'll use an example of a simple online store. Does the business need to accomplish having the store online quickly/easily so as to move stock ASAP and give logistics to a third party or do they need to ensure a seamless and stable flow from customer transaction to delivery location, verified reviews, ratings and etc.
+
+**Understanding the problem will always inform you if you need to go fast and break things or go slow and never have to look back.**
+
+How much tech debt are you willing to take on...in software and life in general.
