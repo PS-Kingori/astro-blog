@@ -5,8 +5,9 @@ module.exports = {
     darkMode: 'class',
     theme: {
         fontFamily: {
+            'kode-mono': ['Kode Mono', 'monospace'],
             sans: ['Inter', ...defaultTheme.fontFamily.sans],
-            serif: ['Newsreader', ...defaultTheme.fontFamily.serif]
+            serif: ['Kode Mono', ...defaultTheme.fontFamily.serif]
         },
         extend: {
             textColor: {

@@ -38,8 +38,8 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: "Peter .S. King'ori",
-    subtitle: 'Web Development  |  Product Design  |  Visual Design ',
+    title: "Peter_s. King'ori",
+    subtitle: 'Web Development  |   Product Design  |   Visual Design ',
     description: 'A place I can share my insights on design and development related topics',
     image: {
         src: '/dante-preview.jpg',
@@ -96,7 +96,7 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: "Product design and Dev Blog ",
+        title: "Design and Dev Blog" ,
         text: "Hi there, Welcome to my Digital design journey documentation. I develop and design digital products using industry standard design and development practices",
         image: {
             src: '/loopfile.gif',
@@ -110,7 +110,7 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Subscribe to my Design and Dev related yappings',
+        title: 'Subscribe to my Design and Dev related yappa-yappings',
         text: 'One update per week. All the latest posts directly in your inbox.',
         formUrl: '#'
     },

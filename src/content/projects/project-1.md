@@ -1,5 +1,5 @@
 ---
-title: 'Redefining Local Connectivity: "Take Me There"'
+title: 'Redefine Local Connectivity: "Take Me There"'
 description: A usness and activity inder platom that .
 publishDate: 'Jan 02 2024'
 isFeatured: true
