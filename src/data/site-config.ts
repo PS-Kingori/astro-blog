@@ -96,7 +96,7 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: "Design and Dev Blog" ,
+        title: "" ,
         text: "Hi there, Welcome. This is a place I can share my insights on design and development related topics. I develop and design digital products using industry standard design and development practices",
         image: {
             src: '/hero-loop.gif',
