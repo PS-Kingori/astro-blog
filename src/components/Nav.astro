@@ -18,7 +18,7 @@ const navLinks = siteConfig.headerNavLinks || [];
                 >
                     <span class="menu-toggle-icon w-6 h-px relative bg-current" />
                 </button>
-                <ul id="menu-items" class="menu flex gap-6 justify-center ">
+                <ul id="menu-items" class="menu flex gap-6">
                     {navLinks.map((link) => (
                         <li class="py-1">
                             <NavLink
@@ -43,7 +43,6 @@ const navLinks = siteConfig.headerNavLinks || [];
         .menu {
             @apply flex-col gap-1 absolute -top-2.5 -left-2.5 max-w-64 px-3 pt-16 pb-10 z-20 bg-main border border-dashed border-main invisible opacity-0;
             width: calc(100% + 1.25rem);
-            justify-content: center;
         }
         .menu.is-visible {
             @apply visible opacity-100;

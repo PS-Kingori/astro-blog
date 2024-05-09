@@ -16,54 +16,11 @@
         --color-border-main: 242 241 236; /* #F2F1EC */
     }
 
-    /* styles.css */
-    @keyframes typing {
-        from {
-            width: 0;
-        }
-        to {
-            width: 100%;
-        }
-    }
-
-    .typewriter {
-        text-align: center; /* Ensure text is aligned to the left */
-        overflow: hidden;
-        border-right: 0.1em solid orange; /* The typewriter cursor */
-        white-space: nowrap;
-        margin: 0 auto; /* Give that scrolling effect a center alignment */
-        letter-spacing: 0.15em; /* Adjust as needed */
-        animation:
-            typing 3.5s steps(40, end),
-            blink-caret.75s step-end infinite;
-    }
-
-    /* The typing effect */
-    @keyframes typing {
-        from {
-            width: 0;
-        }
-        to {
-            width: 100%;
-        }
-    }
-
-    /* The typewriter cursor effect */
-    @keyframes blink-caret {
-        from,
-        to {
-            border-color: transparent;
-        }
-        50% {
-            border-color: orange;
-        }
-    }
-
     /* Cyan */
-
+    /*
     :root {
         --color-text-main: 22 42 43;
-        --color-bg-main: 243 239 230;
+        --color-bg-main: 214 224 226;
         --color-bg-muted: 204 216 219;
         --color-border-main: 22 42 43;
     }
@@ -73,6 +30,7 @@
         --color-bg-muted: 28 53 55;
         --color-border-main: 214 224 226;
     }
+    */
 
     /* Green */
     /*
