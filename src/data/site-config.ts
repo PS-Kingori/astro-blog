@@ -97,7 +97,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: "" ,
-        text: "Hi there, Welcome to my design and dev blog. I discuss designing digital products and using industry standard design and development practices",
+        text: "Welcome to my design and dev blog. I am a Nairobi based front end web developer and UI/UX Designer. I yap about digital products, industry standard designs and HCI practices that I find particularly interesting here. Have a look and",
         image: {
             src: '/hero-loop.gif',
             alt: 'A person sitting at a desk in front of a computer'
@@ -110,7 +110,7 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Subscribe to my Design and Dev related yappa-yappings',
+        title: 'Subscribe to my Design and Dev inspred yappa-yappings',
         text: 'One update per week. All the latest posts directly in your inbox.',
         formUrl: '#'
     },

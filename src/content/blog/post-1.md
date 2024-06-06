@@ -1,5 +1,5 @@
 ---
-title: Approach to getting things moving. Simple vs Easy.
+title: Getting things moving. Simple vs Easy.
 excerpt: How approaching solutions to problems impacts the eventual output. TLDR easier tends to be faster, simpler more sustainable.
 publishDate: 'Apr 29 2024'
 isFeatured: true
@@ -14,17 +14,19 @@ seo:
 
 ![texts](/Text-messages-[remix].gif)
 
-<h3 class="font-kode-mono text-2xl">
+<h2 class="font-kode-mono text-2xl">
   Understanding what you are required to do
+</h2>
+
+**Choosing the right approach** for anything in life is a crucial decision that can significantly impact your decision / development process and ultimately the success of your endevours.
+
+<h3 class="font-kode-mono text-2xl">
+Stability or speed?
 </h3>
 
-**Choosing the right approach** for anything in life is a critical decision that can significantly impact your development process and the success of your endevours. This relates to development and design solutions btw :-)
+> <br/>
+> Sometimes there is a need for things to get done as quickly as possible to get the ball rolling, test and evaluate outcomes. Other times it takes a little more time to know how things work under the hood so as to come up with the most bare-bones solution that just works.
 
-> How quickly or stable do I want things in my life to be?
-> Sometimes there is a need for things to get done as quickly as possible to get the ball rolling and test outcomes. Other times it takes a little more time to know how things work under the hood so as to come up with the most bare-bone implimentation that just works
+**Understanding the problem will always inform you if you need to go fast and possibly break things or go slow and never have to look back.**
 
-I'll use an example of a simple online store. Does the business need to accomplish having the store online quickly/easily so as to move stock ASAP and give logistics to a third party or do they need to ensure a seamless and stable flow from customer transaction to delivery location, verified reviews, ratings and etc.
-
-**Understanding the problem will always inform you if you need to go fast and break things or go slow and never have to look back.**
-
-How much tech debt are you willing to take on...in software and life in general.
+How much debt for your time or energy are you willing to take on?
