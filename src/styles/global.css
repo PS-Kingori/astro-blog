@@ -90,3 +90,17 @@
         border-color: orange;
     }
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.group {
+    animation: fadeIn 2s ease-in-out;
+    animation-fill-mode: both;
+}

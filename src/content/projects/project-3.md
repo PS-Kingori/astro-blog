@@ -10,6 +10,4 @@ seo:
 
 ![Project preview](/motion-screen.jpg)
 
-## Objectives
-
-1. Develop case-study on impacts of simple transitions
+# Under construction :-)
