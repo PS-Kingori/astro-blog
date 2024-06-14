@@ -26,7 +26,7 @@ We began by conducting user research to understand the needs and preferences of 
 
 ## Outcome
 
-The redesigned website for "Take Me There" was a resounding success. It not only met the functional requirements of the businesses but also provided a visually appealing and user-friendly platform.
+The redesigned prototype for "Take Me There" was a resounding success. It not only met the functional requirements of the businesses but also provided a visually appealing and user-friendly platform.
 
 ## Client Testimonial
 
