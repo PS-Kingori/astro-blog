@@ -14,7 +14,7 @@ seo:
 
 ![texts](/Text-messages-[remix].gif)
 
-<h2 class="font-kode-mono text-2xl">
+<h2 class="font-serif>
   Understanding what you are required to do
 </h2>
 
