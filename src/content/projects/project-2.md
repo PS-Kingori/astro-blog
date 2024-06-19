@@ -5,7 +5,7 @@ publishDate: 'Oct 2 2023'
 isFeatured: false
 seo:
   image:
-    src: '/astro-blog/project-2.jpg'
+    src: '/project-2.jpg'
     alt: Project preview
 ---
 

@@ -5,11 +5,11 @@ publishDate: 'Jan 02 2024'
 isFeatured: true
 seo:
   image:
-    src: '/astro-blog/showreel.gif'
+    src: '/showreel.gif'
     alt: Project preview
 ---
 
-![Project preview](/astro-blog/showreel.gif)
+![Project preview](/showreel.gif)
 
 **Project Overview:**
 In the digital age, "Take Me There" emerged as a beacon for small businesses seeking to connect with clients in a modern, online version of the Yellow Pages.

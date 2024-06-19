@@ -48,19 +48,19 @@ const siteConfig: SiteConfig = {
     headerNavLinks: [
         {
             text: 'Home',
-            href: '/astro-blog'
+            href: '/'
         },
         {
             text: 'Projects',
-            href: '/astro-blog/projects'
+            href: '/projects'
         },
         {
             text: 'Blog',
-            href: '/astro-blog/blog'
+            href: '/blog'
         },
         {
             text: 'Tags',
-            href: '/astro-blog/tags'
+            href: '/tags'
         }
     ],
     footerNavLinks: [

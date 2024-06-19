@@ -8,7 +8,7 @@ import tailwind from '@astrojs/tailwind';
 // https://astro.build/config
 export default defineConfig({
     site: 'https://PS-Kingori.github.io/astro-blog',
-    base: '/astro-blog',
+    //base: '/astro-blog',
     integrations: [
         mdx(),
         sitemap(),
