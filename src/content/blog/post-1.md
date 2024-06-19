@@ -14,9 +14,7 @@ seo:
 
 ![texts](/Text-messages-[remix].gif)
 
-<h2 class="font-serif>
-  Understanding what you are required to do
-</h2>
+## Understanding what you are required to do
 
 **Choosing the right approach** for anything in life is a crucial decision that can significantly impact your decision / development process and ultimately the success of your endevours.
 
