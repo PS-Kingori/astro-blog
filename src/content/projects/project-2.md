@@ -5,10 +5,10 @@ publishDate: 'Oct 2 2023'
 isFeatured: false
 seo:
   image:
-    src: '/project-2.jpg'
+    src: '/astro-blog/project-2.jpg'
     alt: Project preview
 ---
 
-![Project preview](/toggle.gif)
+![Project preview](/astro-blog/toggle.gif)
 
 # Under construction :-)

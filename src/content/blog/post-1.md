@@ -12,7 +12,7 @@ seo:
     alt: Wavy lines
 ---
 
-![texts](/Text-messages-[remix].gif)
+![texts](/astro-blog/Text-messages-[remix].gif)
 
 <h2 class="font-kode-mono text-2xl">
   Understanding what you are required to do

@@ -8,6 +8,6 @@ seo:
     src: '/motion-screen.jpg'
 ---
 
-![Project preview](/motion-screen.jpg)
+![Project preview](/astro-blog/motion-screen.jpg)
 
 # Under construction :-)
