@@ -1,7 +1,7 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
 
 module.exports = {
-    content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx}'],
+    content: ['./src/**/*.{astro,html,js,jsx,md,mdx,ts,tsx,}', './node_modules/flowbite/**/*.js'],
     darkMode: 'class',
     theme: {
         fontFamily: {
@@ -82,5 +82,5 @@ module.exports = {
             })
         }
     },
-    plugins: [require('@tailwindcss/typography')]
+    plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')]
 };

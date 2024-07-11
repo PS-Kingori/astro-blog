@@ -16,6 +16,9 @@ seo:
 
 ## Understanding what you are required to do
 
+<Button>Click me</Button>
+<button class="btn btn-primary">Primary Button</button>
+
 **Choosing the right approach** for anything in life is a crucial decision that can significantly impact your decision / development process and ultimately the success of your endevours.
 
 <h3 class="font-kode-mono text-2xl">
