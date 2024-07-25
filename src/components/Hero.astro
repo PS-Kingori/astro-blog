@@ -9,7 +9,7 @@ const hero = siteConfig.hero;
 
 {
     (hero?.title || hero?.image?.src || hero?.text || (hero?.actions && hero.actions.length > 0)) && (
-        <section class="w-full h-[75vh]  flex flex-col gap-8 mb-16 sm:mb-24 justify-center">
+        <section class="w-full h-[50vh]  flex flex-col gap-8 mb-16 sm:mb-24 justify-center">
             {hero.title && <h1 class="text-3xl leading-tight font-serif font-medium sm:text-5xl sm:leading-tight text-center">{hero.title}</h1>}
 
             {/* {hero.image?.src && (
@@ -23,7 +23,7 @@ const hero = siteConfig.hero;
             {hero.actions && hero.actions.length > 0 && (
                 <div class="flex flex-wrap gap-4 justify-center">
                     {hero.actions.map((action) => (
-                        <Button href={action.href}>{action.text}</Button>
+                        <!-- <Button href={action.href}>{action.text}</Button> -->
                     ))}
                 </div>
             )}

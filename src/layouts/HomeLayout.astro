@@ -4,6 +4,7 @@ import BaseHead, { type Props as HeadProps } from '../components/BaseHead.astro'
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import Nav from '../components/Nav.astro';
+import Button from '../components/Button.astro';
 
 export type Props = HeadProps & { showHeader?: boolean };
 
@@ -33,16 +34,71 @@ const { showHeader = true, ...head } = Astro.props;
             <main class="grow w-full max-w-3xl mx-auto">
                 <slot />
             </main>
-            <div class="bg-muted rounded-3xl sm:mx-32 sm:pb-12 md:mx-24 lg:mx-32">
-                <div class="py-12 sm:py-20 h-[50vh] grow w-full max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center sm:items-start">
+
+            <div class="bg-muted rounded-3xl mx-auto max-w-screen-2xl px-4 md:px-8">
+                <div class="py-12 sm:py-10 h-[60vh] grow w-full max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center sm:items-start">
                     <div class="flex flex-col text-center sm:text-left">
-                        <h1 class="mb-4 text-xl leading-tight font-serif sm:mb-6 sm:text-4xl">Skills & tools</h1>
-                        <h3 class="mb-4 text-lg sm:text-1xl leading-tight font-serif sm:mb-6 sm:text-2xl">Design & Development</h3>
-                        <ul class="list-disc pl-5">
-                            <li>Visual design</li>
-                            <li>Graphic design</li>
-                            <li>UI/UX design</li>
+                        <h1 class="mb-4 text-xl leading-tight font-serif sm:mb-6 sm:text-4xl">Open for</h1>
+                        <h3 class="mb-4 text-lg sm:text-1xl leading-tight font-serif sm:mb-6 sm:text-2xl">Design & Development<br /> projects</h3>
+
+                        <ul class="space-y-4 text-left text-gray-500 dark:text-gray-400">
+                            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                                <svg
+                                    class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 16 12"
+                                >
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"
+                                    ></path>
+                                </svg>
+                                <span>Product design</span>
+                            </li>
+                            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                                <svg
+                                    class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 16 12"
+                                >
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"
+                                    ></path>
+                                </svg>
+                                <span>Graphic design</span>
+                            </li>
+                            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                                <svg
+                                    class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 16 12"
+                                >
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"
+                                    ></path>
+                                </svg>
+                                <span>UI/UX design</span>
+                            </li>
+                            <li class="flex items-center space-x-3 rtl:space-x-reverse">
+                                <svg
+                                    class="flex-shrink-0 w-3.5 h-3.5 text-green-500 dark:text-green-400"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 16 12"
+                                >
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5.917 5.724 10.5 15 1.5"
+                                    ></path>
+                                </svg>
+                                <span>Web design</span>
+                            </li>
                         </ul>
+
+                        <div class="py-2">
+                            <Button class="w-48" href="/contact">Contact</Button>
+                        </div>
                     </div>
                     <img src="/undraw_programming_re_kg9v.png" alt="" class="hidden lg:block w-full max-w-xs mx-auto sm:max-w-sm md:max-w-md lg:max-w-l" />
                 </div>
