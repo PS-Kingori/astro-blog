@@ -1,0 +1,55 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import BaseHead, { type Props as HeadProps } from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import Nav from '../components/Nav.astro';
+
+export type Props = HeadProps & { showHeader?: boolean };
+
+const { showHeader = true, ...head } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en" class="antialiased break-words">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@700&display=swap" rel="stylesheet" />
+        <BaseHead {...head} />
+        <script>
+            if (localStorage.theme === 'dark') {
+                document.documentElement.classList.add('dark');
+            }
+        </script>
+        <ViewTransitions />
+    </head>
+    <body class="bg-main text-main">
+        <div class="flex flex-col min-h-screen px-4 md:px-8">
+            <Nav />
+            {showHeader && <Header />}
+
+            <main class="grow w-full max-w-3xl mx-auto">
+                <slot />
+            </main>
+            <div class="bg-muted rounded-3xl sm:mx-32 sm:pb-12 md:mx-24 lg:mx-32">
+                <div class="py-12 sm:py-20 h-[50vh] grow w-full max-w-5xl mx-auto flex flex-col sm:flex-row justify-between items-center sm:items-start">
+                    <div class="flex flex-col text-center sm:text-left">
+                        <h1 class="mb-4 text-xl leading-tight font-serif sm:mb-6 sm:text-4xl">Skills & tools</h1>
+                        <h3 class="mb-4 text-lg sm:text-1xl leading-tight font-serif sm:mb-6 sm:text-2xl">Design & Development</h3>
+                        <ul class="list-disc pl-5">
+                            <li>Visual design</li>
+                            <li>Graphic design</li>
+                            <li>UI/UX design</li>
+                        </ul>
+                    </div>
+                    <img src="/undraw_programming_re_kg9v.png" alt="" class="hidden lg:block w-full max-w-xs mx-auto sm:max-w-sm md:max-w-md lg:max-w-l" />
+                </div>
+            </div>
+
+            <Footer />
+        </div>
+        <script is:inline src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+    </body>
+</html>
