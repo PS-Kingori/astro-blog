@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 @layer base {
+    /*
+    I really wanted this, but ooh well
     body {
         background-image: radial-gradient(circle, var(--dot-bg) 10%, transparent 10.01%);
         background-color: var(--dot-color);
-        background-size: var(--dot-space) var(--dot-space); /* Controls dot size and spacing */
+        background-size: var(--dot-space) var(--dot-space);
         background-position:
             0 0,
-            var(--dot-space) / 2 var(--dot-space) / 2; /* Staggers dots for better coverage */
+            var(--dot-space) / 2 var(--dot-space) / 2;
         background-attachment: fixed;
-    }
+    } */
 
     :root {
         --color-text-main: 23 23 23; /* #171717 */
