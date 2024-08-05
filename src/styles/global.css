@@ -3,11 +3,26 @@
 @tailwind utilities;
 
 @layer base {
+    body {
+        background-image: radial-gradient(circle, var(--dot-bg) 10%, transparent 10.01%);
+        background-color: var(--dot-color);
+        background-size: var(--dot-space) var(--dot-space); /* Controls dot size and spacing */
+        background-position:
+            0 0,
+            var(--dot-space) / 2 var(--dot-space) / 2; /* Staggers dots for better coverage */
+        background-attachment: fixed;
+    }
+
     :root {
         --color-text-main: 23 23 23; /* #171717 */
         --color-bg-main: 242 241 236; /* #F2F1EC */
         --color-bg-muted: 234 233 225; /* #EAE9E1 */
         --color-border-main: 23 23 23; /* #171717 */
+
+        --dot-bg: LightSlateGrey;
+        --dot-color: white;
+        --dot-size: 10%; /* Adjust this value to change dot size */
+        --dot-space: 22px;
     }
     html.dark {
         --color-text-main: 242 241 236; /* #F2F1EC */
@@ -17,7 +32,7 @@
     }
 
     /* Cyan */
-    /* 
+    /*
     :root {
         --color-text-main: 22 42 43;
         --color-bg-main: 214 224 226;
