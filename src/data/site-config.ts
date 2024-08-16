@@ -100,8 +100,8 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: "Design, Dev and a lot of good coffee :-)" ,
-        text: "Welcome to my design and dev blog. I am a Nairobi based front end web developer and UI/UX Designer. I yap about digital products, industry standard designs and HCI practices that I find particularly interesting here. Have a look and",
+        title: 'Design, Dev and a lot of good coffee :-)',
+        text: 'Welcome to my design and dev blog. I am a Nairobi based front end web developer and UI/UX Designer. I yap about digital products, industry standard designs and HCI practices that I find particularly interesting here.',
         image: {
             src: '/hero-loop.gif',
             alt: 'A person sitting at a desk in front of a computer'
