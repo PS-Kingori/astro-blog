@@ -18,42 +18,59 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
 
 <HomeLayout description={siteConfig.description} image={siteConfig.image}>
     <Hero />
-
     <div class="mb-16 sm:mb-24">
-        <h2 class="mb-12 text-xl font-serif sm:mb-16 sm:text-2xl">Project Explorations</h2>
+        <h2 class="mb-12 text-xl font-serif sm:mb-16 sm:text-4xl">Web Design & Development</h2>
 
         <div class="mt-12 sm:mt-16">
-            <div class="grid grid-cols-12 gap-4">
-                <div class="col-span-4 bg-gray-200 p-4 rounded-lg flex justify-center items-center">
-                    <a href="/gallery">
-                        <img src="/Kofi.png" alt="Logo 1" class="max-w-full h-auto" />
-                    </a>
-                </div>
-                <div class="col-span-4 bg-gray-200 p-4 rounded-lg flex justify-center items-center">
-                    <a href="/gallery">
-                        <img src="/rg logo.png" alt="Logo 2" class="max-w-full h-auto" />
-                    </a>
-                </div>
-                <div class="col-span-4 bg-gray-200 p-4 rounded-lg flex justify-center items-center">
-                    <a href="/placeholder-page-3">
-                        <img src="/chara.png" alt="Logo 3" class="max-w-full h-auto" />
-                    </a>
-                </div>
-                <div class="col-span-4 bg-gray-200 p-4 rounded-lg flex justify-center items-center">
-                    <a href="/placeholder-page-3">
-                        <img src="/tmtlogo.png" alt="Logo 3" class="max-w-full h-auto" />
-                    </a>
-                </div>
-                <div class="col-span-4 bg-gray-200 p-4 rounded-lg flex justify-center items-center">
-                    <a href="/placeholder-page-3">
-                        <img src="/arrow.png" alt="Logo 3" class="max-w-full h-auto" />
-                    </a>
-                </div>
+            <div class="grid grid-cols-12 gap-6">
+                <a href="http://saka-studio.free.nf/?i=1" class="col-span-12 md:col-span-6 group relative">
+                    <div class="relative overflow-hidden rounded-xl aspect-[16/9]">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/80 z-10"></div>
+                        <img
+                            src="/saka-site.png"
+                            alt="Saka Site Preview"
+                            class="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
+                        />
+                        <div class="absolute bottom-0 left-0 right-0 p-6 z-20 transform translate-y-2 transition-all duration-300 group-hover:translate-y-0">
+                            <h3 class="text-white font-medium text-lg mb-1">Architect Landing Page</h3>
+                            <p class="text-white/90 text-sm font-light">
+                                Preview Site
+                                <span
+                                    class="inline-block ml-2 opacity-0 transform -translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"
+                                >
+                                    →
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="http://wptester.free.nf/?i=1" class="col-span-12 md:col-span-6 group relative">
+                    <div class="relative overflow-hidden rounded-xl aspect-[16/9]">
+                        <div class="absolute inset-0 bg-gradient-to-b from-transparent via-black/20 to-black/80 z-10"></div>
+                        <img
+                            src="/spekworks.png"
+                            alt="Spekworks Preview"
+                            class="absolute inset-0 w-full h-full object-cover transition-all duration-500 group-hover:scale-105"
+                        />
+                        <div class="absolute bottom-0 left-0 right-0 p-6 z-20 transform translate-y-2 transition-all duration-300 group-hover:translate-y-0">
+                            <h3 class="text-white font-medium text-lg mb-1">Construction Landing Page</h3>
+                            <p class="text-white/90 text-sm font-light">
+                                Preview Site
+                                <span
+                                    class="inline-block ml-2 opacity-0 transform -translate-x-2 transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"
+                                >
+                                    →
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
 
-    {
+    <!-- {
         featuredProjects?.length > 0 && (
             <div class="mb-16 sm:mb-24">
                 <h2 class="mb-12 text-xl font-serif  sm:mb-16 sm:text-2xl">Case studies</h2>
@@ -65,12 +82,12 @@ const featuredProjects = projects.filter(({ data }) => data.isFeatured);
                 </div>
             </div>
         )
-    }
+    } -->
 
     {
         featuredPosts?.length > 0 && (
             <div class="mb-16 sm:mb-24">
-                <h2 class="mb-12 text-xl font-serif  sm:mb-16 sm:text-2xl">Writing</h2>
+                <h2 class="mb-12 text-xl font-serif  sm:mb-16 sm:text-2xl">Featured Blogs</h2>
                 {featuredPosts.map((post) => (
                     <PostPreview post={post} class="mb-10 sm:mb-12" headingLevel="h3" />
                 ))}

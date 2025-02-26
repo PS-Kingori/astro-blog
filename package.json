@@ -22,7 +22,7 @@
         "tailwindcss": "^3.4.4"
     },
     "devDependencies": {
-        "@playform/compress": "0.0.3",
+        "@playform/compress": "^0.1.7",
         "@tailwindcss/typography": "^0.5.13",
         "prettier": "^3.3.2",
         "prettier-plugin-tailwindcss": "^0.5.14"
