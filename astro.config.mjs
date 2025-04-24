@@ -2,6 +2,10 @@ import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 import sitemap from '@astrojs/sitemap';
 import tailwind from '@astrojs/tailwind';
+import lottie from "astro-integration-lottie";
+
+
+import react from '@astrojs/react';
 
 // import playformCompress from '@playform/compress';
 
@@ -10,13 +14,15 @@ export default defineConfig({
     site: 'https://PS-Kingori.github.io/astro-blog',
     //base: '/astro-blog',
     integrations: [
-        mdx(),
-        sitemap(),
-        tailwind({
-            applyBaseStyles: false
-        })
-        // (await import('@playform/compress')).default({
-        //     Path: './dist'
-        // })
+      lottie(),
+      mdx(),
+      sitemap(),
+      // (await import('@playform/compress')).default({
+      //     Path: './dist'
+      // })
+      tailwind({
+          applyBaseStyles: false
+      }),
+      react()
     ]
 });
